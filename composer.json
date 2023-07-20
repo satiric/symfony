@@ -23,6 +23,7 @@
         "doctrine/orm": "^2.15",
         "lcobucci/jwt": "^4.3",
         "nelmio/api-doc-bundle": "^4.12",
+        "sentry/sentry-symfony": "^4.9",
         "symfony/amqp-messenger": "6.3.*",
         "symfony/asset": "6.3.*",
         "symfony/console": "6.3.*",
@@ -55,7 +56,8 @@
     "config": {
         "allow-plugins": {
             "symfony/flex": true,
-            "symfony/runtime": true
+            "symfony/runtime": true,
+            "php-http/discovery": true
         },
         "optimize-autoloader": true,
         "preferred-install": {
